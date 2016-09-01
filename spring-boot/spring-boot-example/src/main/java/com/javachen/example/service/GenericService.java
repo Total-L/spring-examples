@@ -16,7 +16,7 @@ public class GenericService implements MessageService {
 
   @Override
   public String getMessage() {
-    return this.hello + " " + this.name;
+    return this.hello + " from prod " + this.name;
   }
 
 }
